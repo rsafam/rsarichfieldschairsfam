@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about{
+    content: "";
+    background-image: url(./img/about\ bck.jpg);
+    height: 100vh;
+     margin: 0; 
+     width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:-1 ;
+    background-size: cover;
+    opacity: 1.5;
+
+ }  
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.card{
+    background-image: url(./img/about\ green\ and\ peach.avif);
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 80%;
+    margin-left: 130px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px #fff;
+}
+.box{
+    width: 40vw;
+    height: 82vh;
+    margin-top: 9px;
+   margin-left: 20px;
+    position: absolute;
+    background-image: url(./img/about\ card.png);
+    background-size: cover;
+    animation: slider 12s infinite linear;
+}
+@keyframes slider{
+    0%{ background-image: url(./img/about\ card.png);}
+    35%{background-image: url(./img/about\ bck2.webp);}
+    75%{ background-image: url(.);}
+
+}
+
+/* .card img{
+   height: 82vh;
+   width:40vw ;
+   margin-top: 9px;
+   margin-left: 20px;
+   float: left;
+   background-size: cover;
+} */
+
+.card2{
+    margin-left: 570px;
+}
+
+.card2 h2{
+    text-align: center;
+    color:rgb(124, 5, 5);
+    
+    font-size: 37px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    padding-top: 60px;
+}
+.card2 p{
+    text-align: center;
+    line-height: 180%;
+    font-size: 15px;
+    color:rgb(124, 5, 5) ;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    margin-left: 190px;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color:rgb(124, 5, 5) ;
+    color: white;
+    border: solid 2px white;
+    cursor: pointer;
+}

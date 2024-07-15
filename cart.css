@@ -1,0 +1,102 @@
+@media(max-width : 1326px){
+    .head{
+        text-align: center;
+        font-size: 50px;
+    }
+    .add img{
+        height: 180vh;
+        width: 40vw;
+       
+    }
+    .cartform{
+        width: 50%;
+        height: 180vh;
+       
+        margin-left: 70px;
+        margin-right: 100px;
+    }
+    .inptbox span{
+        font-size: 24px;
+       
+      
+        
+    }
+    .inptbox input{
+        width: 60%;
+        padding: 5px 0;
+        font-size: 18px;
+        margin: 15px 0px;
+        border: 2px solid rgb(43, 41, 41);
+
+    }
+    .inptbox button{
+        font-size: 20px;
+        padding: 5px 15px;
+        margin-left: 200px;
+       
+    }
+    .form-select{
+      
+            width: 20%;
+            padding: 5px 0;
+            /* font-weight: bold; */
+            font-size: 18px;
+            margin: 15px 0px;
+           margin-left: 20px
+        }
+}
+
+@media(max-width : 1022px){
+    .cartform{
+        width: 50%;
+        height: 180vh;
+       
+        margin-left: 40px;
+        margin-right: 50px;
+    }
+    .add img{
+        height: 180vh;
+        width: 40vw;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width : 805px){
+    .cartform{
+        width: 50%;
+        height: 180vh;
+       
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .add img{
+        height: 180vh;
+        width: 40vw;
+        margin-left: 10px;
+    }
+}
+@media(max-width : 750px){
+    .add{
+    
+        display: grid;
+        width: 100%;
+    }
+    .cartform{
+        width: 90%;
+        height: 170vh;
+       margin-top: 20px;
+       margin-left: 40px;
+       margin-right: 100px;
+    }
+    .add img{
+        height: 105vh;
+        width: 90%;
+        box-shadow: 8px 8px 8px 8px gray;
+        border-radius: 2px solid black;
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+        /* position: relative; */
+    }
+
+}
